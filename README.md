@@ -1,6 +1,6 @@
 # Storm-Dev-TestingFramework
 
-This is  a very simple storm Development and Testing framework which can really reduce the development time without any need to write full topology code and worring about other bolt's processing part to get completed first. Addoitionally, you can build full fledged bolt specific unit test cases.
+This is  a very simple storm Development and Testing framework which can really reduce the development time without need to write full topology code and worring about other bolt's processing part to get completed first. Addoitionally, you can build full fledged bolt specific unit test cases.
 
 This dev framework can mimic storm topology running behaviour (Local Cluster Mode Style) and can also mimic tuple style data types. I am using below mentioned libraries in this project-
 
