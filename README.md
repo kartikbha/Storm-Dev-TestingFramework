@@ -1,8 +1,8 @@
 # Storm-Dev-TestingFramework
 
-This is very simple storm Development and Testing framework which can really boost the development process without need to write full topology code and worring about other bolt's processing part to complete first.
+This is  a very simple storm Development and Testing framework which can really reduce the development time without any need to write full topology code and worring about other bolt's processing part to get completed first. Addoitionally, you can build full fledged bolt specific unit test cases.
 
-I am using below libraries in this project. This Dev framework can mimic storm topology running behaviour (Local Cluster Mode Style) and can also mimic tuple style data types inputs.
+This dev framework can mimic storm topology running behaviour (Local Cluster Mode Style) and can also mimic tuple style data types. I am using below mentioned libraries in this project-
 
  - jeromq-0.3.4.jar
  - jackson-annotations-2.1.2.jar
@@ -10,11 +10,13 @@ I am using below libraries in this project. This Dev framework can mimic storm t
  - com.fasterxml.jackson.databind.jar
  - 
  
-Once development work is over in these template, you can move into real topology for integration testing.
+Once development work is completed in these template, you can move into real topology for integration testing.
 
 How to use this project ?
 
-Open Tuple Class and define your own tuples  there along with getter and setters.
-Open ControlBolt and complete your business logic there.
-Run ControlBolt class once you have written business logic there. Once started No need to stop it.
-Supply Test inputs through ControlBoltJunitTest.java class.
+Steps-
+
+1.Open Tuple Class and define your own tuples  there along with getter and setters.
+2.Open ControlBolt and complete your business logic there.
+3.Run ControlBolt class once you have written business logic there. Once started No need to stop it.
+4.Supply Test inputs through ControlBoltJunitTest.java class.
