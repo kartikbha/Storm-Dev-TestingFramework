@@ -6,7 +6,12 @@ import bolt.Tuple;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
+/**
+ * 
+ * This Class is used by Test cases to deliver message to bolt.
+ * 
+ */
+ 
 public class Dispatcher {
 
 	public static void send(Tuple tuple) throws InterruptedException {
