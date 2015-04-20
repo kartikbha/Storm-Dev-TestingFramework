@@ -8,8 +8,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * 
  *  This class mimic the bolt logic.
+ *  you can write business logic in execute method.
  * 
  */
+ 
 public class ControlBolt {
 
 	private static LinkedBlockingQueue<String> queue = new LinkedBlockingQueue<String>();
