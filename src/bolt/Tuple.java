@@ -6,6 +6,8 @@ public class Tuple implements Serializable {
 
 	/**
 	 * 
+	 *  Define your tuples in this class
+	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	private String reqID;
