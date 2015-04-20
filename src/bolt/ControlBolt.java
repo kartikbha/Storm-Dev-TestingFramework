@@ -23,7 +23,19 @@ public class ControlBolt {
 			if (tuple != null) {
 				// #########################################
 				// start bolt logic from here
-				processSubQueryCount(tuple.getReqID(),
+			            execute(tuple);
+				// ###########################################
+				// end bolt logic from here
+			}
+		}
+	}
+
+        /**
+         *  Entire business logic will be written in below method.
+         * 
+         */
+        private static void execute(Tuple tuple){
+        		processSubQueryCount(tuple.getReqID(),
 						tuple.getTotalNoOfSubQuery());
 
 				processChunkCountInSubQuery(tuple.getReqID(),
@@ -31,13 +43,9 @@ public class ControlBolt {
 
 				processQueryXML(tuple.getReqID(), tuple.getSubQueryID(),
 						tuple.getQueryXML());
-
-				// ###########################################
-				// end bolt logic from here
-			}
-		}
-	}
-
+        	
+        }
+        
 	private static void processQueryXML(String reqID, String subQueryID,
 			String queryXML) {
 
