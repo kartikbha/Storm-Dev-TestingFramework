@@ -16,7 +16,7 @@ How to use this project ?
 
 Steps-
 
-1.Open Tuple Class and define your own tuples  there along with getter and setters.
-2.Open ControlBolt and complete your business logic there.
-3.Run ControlBolt class once you have written business logic there. Once started No need to stop it.
-4.Supply Test inputs through ControlBoltJunitTest.java class.
+- Open Tuple Class and define your own tuples  there along with getter and setters.
+- Open ControlBolt and complete your business logic in execute Method.
+- Run ControlBolt class once you have written business logic there. Once started No need to stop it (similar to  Storm Local cluster mode).
+- Supply Test inputs through ControlBoltJunitTest.java class.
