@@ -5,6 +5,11 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * 
+ *  This class mimic the bolt logic.
+ * 
+ */
 public class ControlBolt {
 
 	private static LinkedBlockingQueue<String> queue = new LinkedBlockingQueue<String>();
@@ -24,8 +29,8 @@ public class ControlBolt {
 				// #########################################
 				// start bolt logic from here
 			            execute(tuple);
+			        // end bolt logic from here
 				// ###########################################
-				// end bolt logic from here
 			}
 		}
 	}
@@ -35,7 +40,15 @@ public class ControlBolt {
          * 
          */
         private static void execute(Tuple tuple){
-        		processSubQueryCount(tuple.getReqID(),
+        	
+        	// read tuple and write business logic here.
+        	
+        	
+        	
+        	
+        	// Below  method are just for reference example. you can remove them.
+      
+        	        	processSubQueryCount(tuple.getReqID(),
 						tuple.getTotalNoOfSubQuery());
 
 				processChunkCountInSubQuery(tuple.getReqID(),
@@ -87,6 +100,7 @@ public class ControlBolt {
 
 	}
 
+        // Poll the message
 	private static Tuple receiveTuple() {
 		String inputTupleStr = queue.poll();
 		Tuple tuple = null;
@@ -106,6 +120,7 @@ public class ControlBolt {
 		return tuple;
 	}
 
+        // start the listener.
 	private static void startListener() {
 		InputSpout inputSpout = new InputSpout(queue);
 		Thread inputSpoutThread = new Thread(inputSpout);
