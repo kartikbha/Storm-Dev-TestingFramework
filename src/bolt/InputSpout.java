@@ -4,6 +4,12 @@ import java.util.concurrent.LinkedBlockingQueue;
 
 import org.zeromq.ZMQ;
 
+/**
+ *  This class run thread to accept input tuples.
+ *  No Need of any kind of edit in this class.
+ * 
+ */
+ 
 public class InputSpout implements Runnable {
 
 	private static LinkedBlockingQueue<String> queue;
