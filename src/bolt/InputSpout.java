@@ -6,7 +6,7 @@ import org.zeromq.ZMQ;
 
 /**
  *  This class run thread to accept input tuples.
- *  No Need of any kind of edit in this class.
+ *  there is no Need of any kind of edits in this class to use this framework
  * 
  */
  
