@@ -6,10 +6,19 @@ public class Tuple implements Serializable {
 
 	/**
 	 * 
-	 *  Define your tuples in this class
+	 *  Define your tuples in this class with 
+	 *  correct data types you are expected to receive in bolts and create getters and setters.
+	 *  
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	
+	/**
+	 * 
+	 *  Below tuples samples are kept for example. They have no use, you can remove them.
+	 * 
+	 */
+	 
 	private String reqID;
 	private String subQueryID;
 	
