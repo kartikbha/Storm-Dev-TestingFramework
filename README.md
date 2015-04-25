@@ -1,5 +1,5 @@
 # Storm-Dev-Testing-Framework
-# Main purpose of this framework to complete the business logic as fast as possible with all test cases coverage.
+Main purpose of this framework to complete the business logic as fast as possible with all test cases coverage.
 
 This is a very simple storm Development and testing framework which can really reduce the development time without need to write full topology code and worrying about other bolt's processing part to get completed first. Additionally, you can build full-fledged bolt specific unit test cases.
  
