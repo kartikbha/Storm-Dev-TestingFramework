@@ -39,11 +39,13 @@ public class ControlBolt {
 
         /**
          *  Entire business logic will be written in below method.
+         *  This excute method run forever, no need to start or stop this class.
          * 
          */
         private static void execute(Tuple tuple){
         	
         	// read tuple and write business logic here.
+        	// you will be able to get tuple here which you are expected to receive from test cases.
         	
         	
         	
