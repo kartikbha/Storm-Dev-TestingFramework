@@ -8,7 +8,9 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * 
- * This Class is used by Test cases to deliver message to bolt.
+ * 
+ *  This Class is used by Test cases to deliver message to bolt as a tuple format.
+ * 
  * 
  */
  
