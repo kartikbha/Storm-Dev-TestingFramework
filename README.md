@@ -16,5 +16,5 @@ How to use this project ?
 Steps-
 - Open Tuple Class and define your own tuples there along with getter and setters.
 - Open ExampleBolt and complete your business logic in execute Method.
-- Run ExampleBolt class once you have written business logic there. Once started No need to stop it (similar to Storm Local cluster mode).
+- Run ExampleBolt class once you have written business logic there. Once started no need to stop it (similar to Storm Local cluster mode).
 - Supply Test inputs through ExampleBoltTest.java class.
