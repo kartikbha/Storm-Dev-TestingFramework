@@ -5,7 +5,7 @@
 	<artifactId>Storm-Dev-TestingFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-		<sourceDirectory>src</sourceDirectory>
+	    <sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -18,6 +18,12 @@
 		</plugins>
 	</build>
 	<dependencies>
+	<dependency>
+	<groupId>junit</groupId>
+	<artifactId>junit-dep</artifactId>
+	<version>4.8.2</version>
+</dependency>
+	
 		<dependency>
 			<groupId>org.zeromq</groupId>
 			<artifactId>jeromq</artifactId>

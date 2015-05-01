@@ -30,7 +30,7 @@ public class Dispatcher {
 		} catch (JsonProcessingException e) {
 
 		}
-		System.out.println(" sending --");
+		System.out.println(" sending --"+json);
 		pub.send(json);
 		pub.close();
 		ctx.term();
